@@ -20,7 +20,7 @@ export default function OrphanageData() {
   const [instructions, setInstructions] = useState('');
   const [opening_hours, setOpeningOnHours] = useState('');
   const [open_on_weekends, setOpenOnWeekends] = useState(true);
-  const [images, setImages] = useState<String[]>([]);
+  const [images, setImages] = useState<string[]>([]);
 
   const navigation = useNavigation();
   const route = useRoute();
